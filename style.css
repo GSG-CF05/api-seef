@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+body{
+    padding: 20px;
+
+}
+h1{
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    /* background-color: gray; */
+    padding: 10px;
+    width: 300px;
+    margin: 10px auto;
+
+}
+.card p{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.card h2{
+    color: white;
+    text-align: center;
+}
+
+.card:nth-child(1n) h2{
+    background: linear-gradient(#e66465, #9198e5);
+} 
+
+.card:nth-child(2n) h2{
+    background: linear-gradient(#64e6e6, #414feb);
+
+}
+.card:nth-child(3n) h2{
+    background: linear-gradient(#f8f67f, #f06203);
+
+}
+.card:nth-child(4n) h2{
+    background: linear-gradient(#74f185, #3dff02);
+}
